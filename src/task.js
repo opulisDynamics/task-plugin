@@ -13,6 +13,8 @@ export class Task {
                 con.task.next.push({key: con.key, task: this});
             })
         });
+
+        
     }
 
     getOptions() {
